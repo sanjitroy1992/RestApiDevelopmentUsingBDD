@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="2.214668">
+<testcase classname="Add a new user" name="add a User with valid details" time="2.182973">
+<system-out><![CDATA[Given the Admin User is registered with the bank............................passed
+And has access for adding new User..........................................passed
+When the Admin User provides details like firstname as "Michael", lastname as "Jackson" and department as "Finance".passed
+Then a User with name "Michael" is created successfully.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add a new user" name="add a User with invalid details" time="0.031695">
+<system-out><![CDATA[Given the Admin User is registered with the bank............................passed
+And has access for adding new User..........................................passed
+When the Admin User provides details like firstname as "Jonathan", lastname as "null" and department as "HR".passed
+Then an error message "invalid user details" is displayed...................passed
+]]></system-out>
+</testcase>
+</testsuite>
